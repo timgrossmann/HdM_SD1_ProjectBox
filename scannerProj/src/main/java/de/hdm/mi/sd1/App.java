@@ -5,6 +5,7 @@ import java.util.Scanner;
 
 /**
  * Application that runs several programs written for SD1.
+ * This is the working project, please refer to the different Tasks.
  */
 
 public class App {
@@ -34,14 +35,14 @@ public class App {
                 comapreTwoNumbers();
                 break;
 
-            // Guess the number (Random & While-Loop)
+            // Print every n-th number until 100 (For-Loop)
             case 2:
-                guessTheNumber();
+                printNthNumbers();
                 break;
 
-            // Print every n-th number until 100 (For-Loop)
+            // Guess the number (Random & While-Loop)
             case 3:
-                printNthNumbers();
+                guessTheNumber();
                 break;
 
             // Read n numbers and apply print, sum, or average on them
@@ -78,6 +79,28 @@ public class App {
     }
 
 
+    private static void printNthNumbers() {
+        System.out.println("Which n-th numbers to you want to print (e.g. ever 2nd)");
+        int nth = SC.nextInt();
+        int untilValue = 100;
+        int numOfValues = 0;
+
+        // loop from 1 to 100
+        for (int i = 1; i <= untilValue; i++) {
+
+            // modulo operator checks non-remainder divisibility, if result 0 => divisible
+            if (i % nth == 0) {
+                System.out.println(i);
+
+                // short hand incrementing of number of values
+                numOfValues++;
+            }
+        }
+
+        System.out.println("Number of n-th values for n=" + nth + " is " + numOfValues);
+    }
+
+
     private static void guessTheNumber() {
         // Instantiate Random class and get random int from 0 to 99
         Random randGen = new Random();
@@ -104,28 +127,6 @@ public class App {
 
         System.out.println("You're right, the right number was " + randomNumber);
         System.out.println("It took you " + guesses + " tries to figure it out");
-    }
-
-
-    private static void printNthNumbers() {
-        System.out.println("Which n-th numbers to you want to print (e.g. ever 2nd)");
-        int nth = SC.nextInt();
-        int untilValue = 100;
-        int numOfValues = 0;
-
-        // loop from 1 to 100
-        for (int i = 1; i <= untilValue; i++) {
-
-            // modulo operator checks non-remainder divisibility, if result 0 => divisible
-            if (i % nth == 0) {
-                System.out.println(i);
-
-                // short hand incrementing of number of values
-                numOfValues++;
-            }
-        }
-
-        System.out.println("Number of n-th values for n=" + nth + " is " + numOfValues);
     }
 
 
@@ -223,7 +224,6 @@ public class App {
 
 
     private static void printArrayNumbers (int[] numbers) {
-
         // for each loop, in each iteration i takes the next number of the array
         for (int i : numbers) {
             System.out.println(i);
@@ -259,8 +259,8 @@ public class App {
         System.out.println();
         System.out.println("Please select which program you want to run:");
         System.out.println("1 - Return bigger number of 2 given numbers (Relational Operators)");
-        System.out.println("2 - Guess the number (Random & While-Loop)");
-        System.out.println("3 - Print every n-th number until 100 (For-Loop)");
+        System.out.println("2 - Print every n-th number until 100 (For-Loop)");
+        System.out.println("3 - Guess the number (Random & While-Loop)");
         System.out.println("4 - Create array and apply mathematic operation");
         System.out.println("5 - Print christmas tree of given height");
         System.out.println("6 - Todo...");
