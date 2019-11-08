@@ -20,6 +20,8 @@ public class Task6_RefactorToFunctions {
         switch (selection) {
             case 1:
                 System.out.println("Printing all numbers");
+
+                // we are passing the numbers array as a parameter
                 printArrayNumbers(numbers);
 
                 break;
@@ -27,6 +29,7 @@ public class Task6_RefactorToFunctions {
             case 2:
                 System.out.println("Printing sum of all numbers");
 
+                // if the function returns an element, we can assign it to a variable of the return type
                 int sum = sumArrayNumbers(numbers);
                 System.out.println("Sum of all the given numbers is: " + sum);
 
