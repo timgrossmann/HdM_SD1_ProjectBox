@@ -5,6 +5,9 @@ The Java Project in this repository is supposed to teach the students several ba
 
 ##### The flow of the project is supposed to be like this:
 
+> **Note** Each of the tasks is done in a separate Class to make the task clearer, they are prefixed with **Task_N**.
+The App file is the main working environment and combines all the tasks.
+
 1. Basic Scanner project that simply reads in two numbers from the user, assigning them to `int` variables and prints the bigger one (**Variables, usage of Scanner and basic operands**)
 
 1. Print every n-th number from 1 to 100. (**Scanner, For-loops, Modulo**)
@@ -18,6 +21,8 @@ The Java Project in this repository is supposed to teach the students several ba
 1. Refactoring what we've built using functions for the different programs and mathematical operations. (**Functions, Refactoring, Parameters, Arguments**)
 
 1. Nested loops to build a christmas tree printed in the console of a given size. First thought through on paper and then implemented. (**Nested Loops, Problem solving**)
+
+1. Basic Class syntax and visibility of entities inside of classes. (**Classes, Visibilities, Static Keyword**)
 
 1. ... TODO
 
