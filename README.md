@@ -22,7 +22,7 @@ The App file is the main working environment and combines all the tasks.
 
 1. Nested loops to build a christmas tree printed in the console of a given size. First thought through on paper and then implemented. (**Nested Loops, Problem solving**)
 
-1. Basic Class syntax and visibility of entities inside of classes. (**Classes, Visibilities, Static Keyword**)
+1. Coordinate basic Class example explaining syntax and visibility of entities inside of classes. (**Classes, Visibilities, Static Keyword**)
 
 1. ... TODO
 
