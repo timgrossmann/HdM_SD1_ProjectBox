@@ -52,6 +52,10 @@ Import as Maven project in IDE of choice. We use the IntelliJ IDE.
 Depending on the level the students, it makes sense to provide only the first n-Topics as examples to not overwhelm them.
 Each presentation should be acompanied by a small task the other students can work through to understand the concepts better.
 
+- Maven setup
+- IntelliJ useful features
+- Variables
+- Main Method
 - Scanner (Simple User Input)
 - Primitive Types
 - Object Types
