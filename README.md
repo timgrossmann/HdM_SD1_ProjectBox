@@ -81,6 +81,8 @@ Each presentation should be acompanied by a small task the other students can wo
 - Compiling Classes to Java files
 - JSON Handling
 - Clean Code
+- Version Control with Git (basic cloning, comitting)
+- Advanced Version Control with Git
 - ... TODO
 
 <br />
