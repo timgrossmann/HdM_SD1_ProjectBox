@@ -57,6 +57,7 @@ Each presentation should be acompanied by a small task the other students can wo
 - Variables
 - Main Method
 - Scanner (Simple User Input)
+- System.in/out/error
 - Primitive Types
 - Object Types
 - If-Conditions
