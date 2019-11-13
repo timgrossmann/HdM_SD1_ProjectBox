@@ -83,6 +83,12 @@ Each presentation should be acompanied by a small task the other students can wo
 - Clean Code
 - ... TODO
 
+<br />
+
+---
+
+<br />
+
 #### Additional Task Resources
 
 - [Daily Programmer](https://www.reddit.com/r/dailyprogrammer/)
