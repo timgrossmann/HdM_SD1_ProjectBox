@@ -26,7 +26,7 @@ import java.util.Random;
 
 public class Coordinate {
     // can be accessed without instantiating new class
-    static String name = "Coordinate Class";
+    static String name = "CoordinatePoint Class";
 
     // can be accessed from outside
     int x;
