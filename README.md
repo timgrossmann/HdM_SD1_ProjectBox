@@ -24,8 +24,9 @@ The App file is the main working environment and combines all the tasks.
 
 1. Coordinate basic Class example explaining syntax and visibility of entities inside of classes. (**Classes, Visibilities, Static Keyword**)
 
-1. ... TODO
+1. Coordinate system advanced Class example using two dimensional array to define empty element for each possible coordinate. Coordinates can then be provided which will be "marked" in the coordinate system upon printing. (**Classes, Two Dimensional Arrays**)
 
+1. ... TODO 
 
 <br />
 
@@ -46,6 +47,41 @@ Import as Maven project in IDE of choice. We use the IntelliJ IDE.
 ---
 
 <br />
+
+#### Potential Topics for short Presentations
+Depending on the level the students, it makes sense to provide only the first n-Topics as examples to not overwhelm them.
+Each presentation should be acompanied by a small task the other students can work through to understand the concepts better.
+
+- Scanner (Simple User Input)
+- Primitive Types
+- Object Types
+- If-Conditions
+- Switch-Case
+- For-Loops
+- While-Loops
+- Break & Continue
+- Arrays
+- Nested Arrays
+- Functions
+- Passing Values vs. References
+- Classes (Constructor, etc.)
+- Visibility Levels of Entities of Classes
+- Method Overloading
+- File Class (Input/Output)
+- Exceptions
+- Collections
+- Interfaces
+- Method Overriding
+- Abstract Classes
+- Root Object Class Methods (toString(), etc.)
+- Dates
+- HTTP-Requests
+- Singleton
+- Other JVM langauges
+- Compiling Classes to Java files
+- JSON Handling
+- Clean Code
+- ... TODO
 
 #### Additional Task Resources
 
