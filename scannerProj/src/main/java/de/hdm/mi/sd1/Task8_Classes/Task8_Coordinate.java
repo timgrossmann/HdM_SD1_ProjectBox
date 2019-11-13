@@ -24,9 +24,9 @@ import java.util.Random;
             + : accessible         blank : not accessible
 */
 
-public class Coordinate {
+public class Task8_Coordinate {
     // can be accessed without instantiating new class
-    static String name = "CoordinatePoint Class";
+    static String name = "Task9_CoordinatePoint Class";
 
     // can be accessed from outside
     int x;
@@ -38,8 +38,8 @@ public class Coordinate {
     private int value;
 
     // we can declare multiple constructors with different amounts of parameters
-    Coordinate () {}
-    Coordinate (int x, int y, int value) {
+    Task8_Coordinate() {}
+    Task8_Coordinate(int x, int y, int value) {
         this.x = x;
         this.y = y;
         this.value = value;
@@ -61,11 +61,11 @@ public class Coordinate {
     private static final Random RANDOM_GENERATOR = new Random();
 
     // methods can also return instances of classes
-    public static Coordinate getRandomCoordinate () {
+    public static Task8_Coordinate getRandomCoordinate () {
         int xCord = RANDOM_GENERATOR.nextInt(10);
         int yCord = RANDOM_GENERATOR.nextInt(10);
         int value = RANDOM_GENERATOR.nextInt(100);
 
-        return new Coordinate(xCord, yCord, value);
+        return new Task8_Coordinate(xCord, yCord, value);
     }
 }

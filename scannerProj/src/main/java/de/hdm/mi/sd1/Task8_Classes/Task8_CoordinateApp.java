@@ -3,13 +3,13 @@ package de.hdm.mi.sd1.Task8_Classes;
 /**
  * Created by TG on 08.11.19.
  */
-public class CoordinateApp {
+public class Task8_CoordinateApp {
     public static void main(String[] args) {
         ////////////////////////////////////////////////////////////////////////
         // Constructor without
 
         // Classes can be instantiated with the new keyword
-        Coordinate cord1 = new Coordinate();
+        Task8_Coordinate cord1 = new Task8_Coordinate();
 
         // x and y can be accessed from outside the class
         cord1.x = 1;
@@ -21,9 +21,9 @@ public class CoordinateApp {
         // public Setter and Getter can be used to alter private variables
         cord1.setValue(15);
 
-        System.out.println("1. X-CoordinatePoint is: " + cord1.x);
-        System.out.println("1. Y-CoordinatePoint is: " + cord1.y);
-        System.out.println("1. Value of CoordinatePoint is: " + cord1.getValue());
+        System.out.println("1. X-Task9_CoordinatePoint is: " + cord1.x);
+        System.out.println("1. Y-Task9_CoordinatePoint is: " + cord1.y);
+        System.out.println("1. Value of Task9_CoordinatePoint is: " + cord1.getValue());
 
         System.out.println();
 
@@ -31,11 +31,11 @@ public class CoordinateApp {
         // Constructor with parameters
 
         // We can have different Constructors that allow to pass values directly
-        Coordinate cord2 = new Coordinate(3, 7, 20);
+        Task8_Coordinate cord2 = new Task8_Coordinate(3, 7, 20);
 
-        System.out.println("2. X-CoordinatePoint is: " + cord2.x);
-        System.out.println("2. Y-CoordinatePoint is: " + cord2.y);
-        System.out.println("2. Value of CoordinatePoint is: " + cord2.getValue());
+        System.out.println("2. X-Task9_CoordinatePoint is: " + cord2.x);
+        System.out.println("2. Y-Task9_CoordinatePoint is: " + cord2.y);
+        System.out.println("2. Value of Task9_CoordinatePoint is: " + cord2.getValue());
 
         System.out.println();
 
@@ -43,12 +43,12 @@ public class CoordinateApp {
         // Static elements of the class
 
         // static variables and methods can be accessed without instantiating with new keyword
-        String coordinateClassName = Coordinate.name;
-        Coordinate cord3 = Coordinate.getRandomCoordinate();
+        String coordinateClassName = Task8_Coordinate.name;
+        Task8_Coordinate cord3 = Task8_Coordinate.getRandomCoordinate();
 
-        System.out.println("CoordinatePoint static name: " + coordinateClassName);
-        System.out.println("3. X-CoordinatePoint is: " + cord3.x);
-        System.out.println("3. Y-CoordinatePoint is: " + cord3.y);
-        System.out.println("3. Value of CoordinatePoint is: " + cord3.getValue());
+        System.out.println("Task9_CoordinatePoint static name: " + coordinateClassName);
+        System.out.println("3. X-Task9_CoordinatePoint is: " + cord3.x);
+        System.out.println("3. Y-Task9_CoordinatePoint is: " + cord3.y);
+        System.out.println("3. Value of Task9_CoordinatePoint is: " + cord3.getValue());
     }
 }
