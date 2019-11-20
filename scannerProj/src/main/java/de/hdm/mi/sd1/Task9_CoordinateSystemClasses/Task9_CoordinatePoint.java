@@ -6,10 +6,10 @@ package de.hdm.mi.sd1.Task9_CoordinateSystemClasses;
 public class Task9_CoordinatePoint {
     private int xCoord;
     private int yCoord;
-    private String value;
+    private char value;
 
     // parameters of a method can also have the final keyword, making them non-mutatable (not changable)
-    public Task9_CoordinatePoint(final int xCoord, final int yCoord, final String value) {
+    public Task9_CoordinatePoint(final int xCoord, final int yCoord, final char value) {
         this.xCoord = xCoord;
         this.yCoord = yCoord;
         this.value = value;
@@ -33,11 +33,11 @@ public class Task9_CoordinatePoint {
         this.yCoord = yCoord;
     }
 
-    public String getValue() {
+    public char getValue() {
         return value;
     }
 
-    public void setValue(String value) {
+    public void setValue(char value) {
         this.value = value;
     }
 }

@@ -26,12 +26,12 @@ public class Task9_CoordinateSystemApp {
         System.out.println();
 
         // Creating two objects of type Task9_CoordinatePoint to add to the Task9_CoordinateSystem
-        final Task9_CoordinatePoint cP1 = new Task9_CoordinatePoint(0, 0, "X");
-        final Task9_CoordinatePoint cP2 = new Task9_CoordinatePoint(3, 4, "O");
+        final Task9_CoordinatePoint cP1 = new Task9_CoordinatePoint(0, 0, 'X');
+        final Task9_CoordinatePoint cP2 = new Task9_CoordinatePoint(3, 4, 'O');
 
         // This Task9_CoordinatePoint will throw an error when the width and height inputs are <= 5
         // (grid will contain indices only be 0-4)
-        final Task9_CoordinatePoint cP3 = new Task9_CoordinatePoint(5, 5, "O");
+        final Task9_CoordinatePoint cP3 = new Task9_CoordinatePoint(5, 5, 'O');
 
         // Add CoordinatePoints to Task9_CoordinateSystem
         coordSystem.addCoordinatePoint(cP1);
@@ -56,7 +56,7 @@ public class Task9_CoordinateSystemApp {
             scanner.nextLine();
 
             System.out.println("Please enter the to be displayed value of the Task9_CoordinatePoint: ");
-            final String value = scanner.nextLine();
+            final char value = scanner.nextLine().charAt(0);
 
             final Task9_CoordinatePoint coordPoint = new Task9_CoordinatePoint(xCoord, yCoord, value);
             coordSystem.addCoordinatePoint(coordPoint);

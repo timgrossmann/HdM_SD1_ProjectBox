@@ -4,7 +4,7 @@ package de.hdm.mi.sd1.Task9_CoordinateSystemClasses;
  * Created by TG on 13.11.19.
  */
 public class Task9_CoordinateSystem {
-    private String[][] grid;
+    private char[][] grid;
 
     // Constructor that calls the initGrid function declared further down to fill the grid of the object to the given width and height
     public Task9_CoordinateSystem(final int width, final int height) {
@@ -22,8 +22,8 @@ public class Task9_CoordinateSystem {
     }
 
 
-    private String[][] initGrid (final int width, final int height) {
-        String[][] grid = new String[height][width];
+    private char[][] initGrid (final int width, final int height) {
+        char[][] grid = new char[height][width];
 
         /*
             Considering the iteration direction, we have height number of rows and width number of columns.
@@ -45,7 +45,7 @@ public class Task9_CoordinateSystem {
 
         for (int y = 0; y < height; y++ ) {
             for (int x = 0; x < width; x++) {
-                grid[y][x] = "-";
+                grid[y][x] = '-';
             }
         }
 
@@ -54,8 +54,8 @@ public class Task9_CoordinateSystem {
 
 
     public void printGrid () {
-        for (String[] row : grid) {
-            for (String x : row) {
+        for (char[] row : grid) {
+            for (char x : row) {
                 System.out.print(x);
             }
             System.out.println();
