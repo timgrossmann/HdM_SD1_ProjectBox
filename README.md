@@ -26,6 +26,8 @@ The App file is the main working environment and combines all the tasks.
 
 1. Coordinate system advanced Class example using two dimensional array to define empty element for each possible coordinate. Coordinates can then be provided which will be "marked" in the coordinate system upon printing. (**Classes, Two Dimensional Arrays**)
 
+1. Enum class example with Player and Potion entites. Potion can be of different "Types" (Enum usage) and Player can use the Potions to increase health, attack, or defense. **(Revisit Classes, Simple Enums)**
+
 1. ... TODO 
 
 <br />
