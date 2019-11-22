@@ -3,20 +3,20 @@ package de.hdm.mi.sd1.Task9_CoordinateSystemClasses;
 /**
  * Created by TG on 13.11.19.
  */
-public class Task9_CoordinateSystem {
+public class CoordinateSystem {
     private char[][] grid;
 
     // Constructor that calls the initGrid function declared further down to fill the grid of the object to the given width and height
-    public Task9_CoordinateSystem(final int width, final int height) {
+    public CoordinateSystem(final int width, final int height) {
         this.grid = initGrid(width, height);
     }
 
 
     // We can also use "classes" as parameters to be passed to functions
-    public void addCoordinatePoint (final Task9_CoordinatePoint coord) {
+    public void addCoordinatePoint (final CoordinatePoint coord) {
 
         // As described in the initGrid method, we can directly access each position in the grid
-        // with the given x and y coordinates. This makes it easy to assign the value returned from the Task9_CoordinatePoint
+        // with the given x and y coordinates. This makes it easy to assign the value returned from the CoordinatePoint
         grid[coord.getyCoord()][coord.getxCoord()] = coord.getValue();
 
     }

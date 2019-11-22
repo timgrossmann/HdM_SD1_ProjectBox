@@ -1,6 +1,6 @@
 package de.hdm.mi.sd1;
 
-import de.hdm.mi.sd1.Task9_CoordinateSystemClasses.Task9_CoordinateSystemApp;
+import de.hdm.mi.sd1.Task9_CoordinateSystemClasses.CoordinateSystemApp;
 
 import java.util.Scanner;
 
@@ -50,9 +50,9 @@ public class App {
                 Task7_ChristmasTree.main(args);
                 break;
 
-            // Create a Task9_CoordinateSystem and fill it with CoordinatePoints with a given value
+            // Create a CoordinateSystem and fill it with CoordinatePoints with a given value
             case 6:
-                Task9_CoordinateSystemApp.main(args);
+                CoordinateSystemApp.main(args);
                 break;
 
             // default use case catches values that are not specified
@@ -76,7 +76,7 @@ public class App {
         System.out.println("3 - Guess the number (Random & While-Loop)");
         System.out.println("4 - Create array and apply mathematic operation");
         System.out.println("5 - Print christmas tree of given height");
-        System.out.println("6 - Create a Task9_CoordinateSystem and fill it with CoordinatePoints with a given value");
+        System.out.println("6 - Create a CoordinateSystem and fill it with CoordinatePoints with a given value");
         System.out.println("7 - ... TODO");
     }
 }

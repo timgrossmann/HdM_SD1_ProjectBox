@@ -3,13 +3,13 @@ package de.hdm.mi.sd1.Task9_CoordinateSystemClasses;
 /**
  * Created by TG on 13.11.19.
  */
-public class Task9_CoordinatePoint {
+public class CoordinatePoint {
     private int xCoord;
     private int yCoord;
     private char value;
 
     // parameters of a method can also have the final keyword, making them non-mutatable (not changable)
-    public Task9_CoordinatePoint(final int xCoord, final int yCoord, final char value) {
+    public CoordinatePoint(final int xCoord, final int yCoord, final char value) {
         this.xCoord = xCoord;
         this.yCoord = yCoord;
         this.value = value;
