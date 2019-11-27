@@ -28,7 +28,9 @@ The App file is the main working environment and combines all the tasks.
 
 1. Enum class example with Player and Potion entites. Potion can be of different "Types" (Enum usage) and Player can use the Potions to increase health, attack, or defense. **(Revisit Classes, Simple Enums)**
 
-1. ... TODO 
+1. Very simple dungeon escape game with basic logic of walking along a dungeon grid. **(More Classes, 2-dim Array, Functions)**
+
+1. ... TODO
 
 <br />
 
@@ -74,6 +76,8 @@ Each presentation should be acompanied by a small task the other students can wo
 - Classes (Constructor, etc.)
 - Visibility Levels of Entities of Classes
 - Method Overloading
+- Enums
+- Static
 - File Class (Input/Output)
 - Exceptions
 - Collections
@@ -90,7 +94,6 @@ Each presentation should be acompanied by a small task the other students can wo
 - Clean Code
 - Version Control with Git (basic cloning, comitting)
 - Advanced Version Control with Git
-- ... TODO
 
 <br />
 
@@ -102,3 +105,4 @@ Each presentation should be acompanied by a small task the other students can wo
 
 - [Daily Programmer](https://www.reddit.com/r/dailyprogrammer/)
 - [Codingbat](https://codingbat.com)
+- [Codewars](https://www.codewars.com)
