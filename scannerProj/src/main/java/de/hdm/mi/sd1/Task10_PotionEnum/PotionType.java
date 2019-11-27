@@ -1,4 +1,4 @@
-package de.hdm.mi.sd1.Task_10_PotionEnum;
+package de.hdm.mi.sd1.Task10_PotionEnum;
 
 /**
  * Created by TG on 22.11.19.

@@ -1,4 +1,4 @@
-package de.hdm.mi.sd1.Task_11_SimpleDungeonEscape;
+package de.hdm.mi.sd1.Task12_SimpleDungeonEscape;
 
 /**
  * Created by TG on 26.11.19.

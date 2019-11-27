@@ -1,4 +1,4 @@
-package de.hdm.mi.sd1.Task_11_SimpleDungeonEscape;
+package de.hdm.mi.sd1.Task12_SimpleDungeonEscape;
 
 import java.util.Scanner;
 
