@@ -104,3 +104,4 @@ Each presentation should be acompanied by a small task the other students can wo
 
 - [Daily Programmer](https://www.reddit.com/r/dailyprogrammer/)
 - [Codingbat](https://codingbat.com)
+- [Codewars](https://www.codewars.com)
