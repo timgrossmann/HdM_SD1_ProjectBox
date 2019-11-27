@@ -76,6 +76,8 @@ Each presentation should be acompanied by a small task the other students can wo
 - Classes (Constructor, etc.)
 - Visibility Levels of Entities of Classes
 - Method Overloading
+- Enums
+- Static
 - File Class (Input/Output)
 - Exceptions
 - Collections
@@ -92,7 +94,6 @@ Each presentation should be acompanied by a small task the other students can wo
 - Clean Code
 - Version Control with Git (basic cloning, comitting)
 - Advanced Version Control with Git
-- ... TODO
 
 <br />
 
