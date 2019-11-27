@@ -28,7 +28,9 @@ The App file is the main working environment and combines all the tasks.
 
 1. Enum class example with Player and Potion entites. Potion can be of different "Types" (Enum usage) and Player can use the Potions to increase health, attack, or defense. **(Revisit Classes, Simple Enums)**
 
-1. ... TODO 
+1. Very simple dungeon escape game with basic logic of walking along a dungeon grid. **(More Classes, 2-dim Array, Functions)**
+
+1. ... TODO
 
 <br />
 
