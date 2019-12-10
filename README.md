@@ -32,7 +32,7 @@ The App file is the main working environment and combines all the tasks.
 
 1. Very simple dungeon escape game with basic logic of walking along a dungeon grid. **(More Classes, 2-dim Array, Functions)**
 
-1. ... TODO
+1. Simple tests using JUnit for the potion enum task, testing the construction of new Player and Potion and applying a potion to the player. **(Project Structure, Pom file, Test cases)**
 
 <br />
 
