@@ -10,4 +10,5 @@ public enum PotionType {
     HEALTH,
     ATTACK,
     DEFENSE,
+    RANDOM,
 }

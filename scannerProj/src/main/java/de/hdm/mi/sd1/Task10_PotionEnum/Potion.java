@@ -9,7 +9,7 @@ public class Potion {
     private String potionColor;
     private int value;
 
-    Potion (final PotionType potionType, final int value) {
+    public Potion (final PotionType potionType, final int value) {
         this.potionType = potionType;
         this.value = value;
 
